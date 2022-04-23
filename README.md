@@ -1,20 +1,11 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introdução 
+Prova de conceito e estudo do padrão builder com fluent api.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Gerador de requests
+Este projeto foi criado para testar a utilização do padrão builder num contexto de criação de requests.
+Muitos projetos utilizam chamadas para apis externas e utilizam muitas linhas de codigo, muitas vezes sem padrão, deixando o projeto menos legivel.
+A aplicação deste caso de uso permite que os requests sejam criado com apenas 1 commando ja com retorno generico.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+O projeto realiza uma chamada de exemplo na api aberta de participantes do openbanking.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+O codigo é inicial e demonstra que podemos realizar chamadas de forma mais limpa e padronizada.
